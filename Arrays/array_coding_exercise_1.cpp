@@ -27,6 +27,7 @@ int largestElement(std::vector<int> arr)
 
 int main()
 {
+    // Example: Create vector and find largest vector element
     std::vector<int> input_arr = {5, 0, -1, 0, 1, 2, -1};
     int max_sum = largestElement(input_arr);
     std::cout << "Largest Element: " << max_sum;

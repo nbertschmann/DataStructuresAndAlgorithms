@@ -6,8 +6,7 @@
  * @brief Find the Pair with Closest Sum to a Target
  * 
  * This function takes a vector of integers and a target sum as input and 
- * finds the pair of elements with the closest sum to the target. The result
- * is returned as a pair.
+ * finds the pair of elements with the closest sum to the target. 
  * 
  * @param arr The input vector of integers.
  * @param x The target sum.
@@ -61,7 +60,7 @@ std::pair <int, int> closestSum(std::vector<int> arr, int x)
 
 int main()
 {
-    // Example usage: Create a vector (arr) and find the pair with the closest sum to x
+    // Example: Create vector and find the pair with the closest sum to x
     std::vector arr = {10, 22, 28, 29, 30, 40};
     int x = 54;
     std::pair<int, int> ans = closestSum(arr, x);

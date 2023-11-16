@@ -52,7 +52,7 @@ int maxSumSubarray(std::vector<int> A) {
 
 int main()
 {
-    // Create a vector and find the maximum sum subarray
+    // Example: Create a vector and find the maximum sum subarray
     // std::vector<int> input_arr = {5, 0, -1, 0, 1, 2, -1};
     std::vector<int> input_arr = {-5, 4, -1, 7, -9, -2, -1};
     int max_sum = maxSumSubarray(input_arr);
