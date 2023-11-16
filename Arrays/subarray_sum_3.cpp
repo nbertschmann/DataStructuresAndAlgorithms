@@ -7,6 +7,7 @@ int largest_subarray_sum(int arr[], int n)
     int current_sum = 0;
     int max_sum = 0;
 
+    // Implement Kadanes algorithms
     for(int i=0; i < n; i++)
     {
         // Add the current element to the current sum
